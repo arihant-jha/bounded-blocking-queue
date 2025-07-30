@@ -3,7 +3,6 @@
 2. python stopped thread creation at 10k threads.
 3. But the experiment ran successfully!
 '''
-from multiprocessing import context
 import time
 from queue import Queue
 import psycopg2
